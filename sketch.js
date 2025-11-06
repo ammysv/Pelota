@@ -14,7 +14,7 @@ function setup() {
 }
 
 function draw() {
-    background(0);
+    background(0); // variante 290, 220, 140, 60
     
     for(let i = 0; i < NP; i++){
         pelotas[i].actualizar();
